@@ -1,21 +1,24 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Route, Switch, Link } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import './index.css';
 import Footer from './Footer';
 import Home from './Home';
 import About from './About';
+import Projects from './Projects';
 import { Sidebar, Menu, Button } from 'semantic-ui-react';
 
 class App extends Component {
   state ={ visible: false}
 
-  toggleVisibility = () => this.setState({ visible: !this.state.visible })
+  toggleVisibility = () => {
+    this.setState({ visible: !this.state.visible })
+  }
 
   render() {
     const {visible} = this.state
     return (
-      <div className="background">
+      <div className="background" >
         <Sidebar.Pushable>
           <Sidebar
             style={styles.navHeaders}
@@ -29,31 +32,37 @@ class App extends Component {
             onHide={this.toggleVisibility}
             >
               <Menu.Item>
-              <Link style={{color:'rgb(114, 166, 96)'}} to="/">
+              <a style={{color:'rgb(114, 166, 96)'}} href="/" onClick={this.toggleVisibility}>
                 Home
-              </Link>
+              </a>
             </Menu.Item>
             <Menu.Item name='about'>
-              <Link  style={{color:'rgb(114, 166, 96)'}} to='/about'>
+              <a style={{color:'rgb(114, 166, 96)'}} href='/about' onClick={this.toggleVisibility}>
                 About
-              </Link>
+              </a>
             </Menu.Item>
             <Menu.Item name='projects'>
-              <Link style={{color:'rgb(114, 166, 96)'}} to='/projects'>
+              <a style={{color:'rgb(114, 166, 96)'}} href='/projects' onClick={this.toggleVisibility}>
                 Projects
-              </Link>
+              </a>
             </Menu.Item>
             <Menu.Item name='contact'>
-              <Link  style={{color:'rgb(114, 166, 96)'}} to='/contact'>
+              <a  style={{color:'rgb(114, 166, 96)'}} href='/contact' onClick={this.toggleVisibility}>
                 Contact
-              </Link>
+              </a>
             </Menu.Item>
           </Sidebar>
           <Sidebar.Pusher>
-            <Button circular icon="bars" style={{ float: 'right', margin:'10px', color: 'rgb(114, 166, 96)'}} onClick={this.toggleVisibility} />
+            <Button
+              circular
+              icon="bars"
+              style={{ float: 'right', margin:'5px', color: 'rgb(114, 166, 96)'}}
+              onClick={this.toggleVisibility}
+            />
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/about" component={About} />
+              <Route exact path="/projects" component={Projects} />
             </Switch>
           </Sidebar.Pusher>
         </Sidebar.Pushable>

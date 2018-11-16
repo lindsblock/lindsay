@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import { Container, Button, Menu, Segment, Divider, Header} from 'semantic-ui-react';
+import React from 'react';
+import { Button, Menu, Segment, Header} from 'semantic-ui-react';
 import './Footer.css'
 
 const Footer = () => {
     return (
       <div className="Footer">
-        <Segment>
+        <Segment style={{backgroundColor:'rgb(246, 245, 245)'}}>
              <a href="https://www.facebook.com/lindsay.wolthuis">
                <Button size="large" circular color='facebook' icon='facebook' />
              </a>
