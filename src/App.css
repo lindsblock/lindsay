@@ -9,15 +9,16 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  position:relative;
+  /* position:relative; */
   background-attachment: fixed;
 }
 
 .headers {
   font-family: 'Tangerine';
-  font-size: 120px;
+  font-size: 10vw;
   /* margin-right: 20px; */
   /* padding-top: 10px; */
   padding:80px;
   text-align: center;
+  color:rgb(99, 99, 99);
 }

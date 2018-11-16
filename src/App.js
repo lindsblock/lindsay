@@ -6,7 +6,10 @@ import Footer from './Footer';
 import Home from './Home';
 import About from './About';
 import Projects from './Projects';
+import Contact from './Contact';
 import { Sidebar, Menu, Button } from 'semantic-ui-react';
+import ScrollUpButton from "react-scroll-up-button"
+
 
 class App extends Component {
   state ={ visible: false}
@@ -56,17 +59,24 @@ class App extends Component {
             <Button
               circular
               icon="bars"
-              style={{ float: 'right', margin:'5px', color: 'rgb(114, 166, 96)'}}
+              style={{
+                float: 'right',
+                margin:'5px',
+                color: 'rgb(114, 166, 96)',
+                backgroundColor: 'rgb(246, 245, 245)'
+              }}
               onClick={this.toggleVisibility}
             />
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/about" component={About} />
               <Route exact path="/projects" component={Projects} />
+              <Route exact path="/contact" component={Contact} />
             </Switch>
           </Sidebar.Pusher>
         </Sidebar.Pushable>
         <Footer />
+
       </div>
     );
   }

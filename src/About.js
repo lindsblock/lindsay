@@ -4,10 +4,10 @@ import {Grid, Icon, Header, Container } from 'semantic-ui-react';
 const about = () => {
   return(
     <div style={{textAlign:'center'}} >
-      <h1 className="headers">About</h1>
+      <h1 className="headers">Skills and Education</h1>
       <div style={{backgroundColor: 'rgb(246, 245, 245, .9)', fontFamily:'marcellus'}}>
-                <Header textAlign="center" style={{fontFamily:'marcellus', fontSize:'30px'}}>Skills</Header>
-                <Grid columns={3} stackable celled='internally' verticalAlign='middle' textAlign="center" style={{fontSize:'30px'}}>
+                <Header textAlign="center" style={styles.segmentHeaders}>Skills</Header>
+                <Grid columns={3} stackable celled='internally' verticalAlign='middle' textAlign="center" style={{fontSize:'30px', color:'rgb(99,99,99)'}}>
                   <Grid.Row>
                    <Grid.Column >
                      <Icon name='js' size='large' style={{color: 'rgb(114, 166, 96)'}}/>
@@ -56,17 +56,19 @@ const about = () => {
                 <Grid columns="equal" container divided stackable verticalAlign='middle' style={{margin:'auto'}}>
                   <Grid.Row>
                     <Grid.Column textAlign="center" >
-                      <Header as="h2" style={{fontFamily:'Marcellus', fontSize: '30px'}}>Education</Header>
-                      <Icon centered name="graduation" size="large"></Icon>
+                      <Header as="h2" style={styles.segmentHeaders}>Education</Header>
+                      <Icon centered name="graduation" size="large" style={{color:'rgb(99,99,99)'}}></Icon>
                     </Grid.Column>
                     <Grid.Column >
-                      <Container style={{padding:'10px', fontSize: '20px', fontFamily: 'marcellus'}} >
+                      <Container style={{padding:'10px', fontSize: '20px', fontFamily: 'marcellus', color:'rgb(99,99,99)'}} >
                         <strong>DevPoint Labs</strong>
                         <p>2018 - Web Development Certification</p>
                         <strong>Continuing Ed- Udemy</strong>
                         <p>2018- React 16- The Complete Guide Online Course</p>
                         <strong>SLCC</strong>
                         <p>2015 - Associate's Degree in General Education </p>
+                        <strong>SLCC</strong>
+                        <p>2015 - Associate's Degree in Applied Science - Physical Therapist Assisting </p>
                       </Container>
                     </Grid.Column>
                   </Grid.Row>
@@ -76,12 +78,13 @@ const about = () => {
   )
 }
 const styles = {
-  pageHeaders: {
-    fontFamily: 'Tangerine',
-    fontSize: '100px',
-    marginRight: '20px',
-    paddingTop: '10px',
-  }
+  segmentHeaders: {
+    fontFamily:'marcellus',
+    fontSize:'30px',
+    color:'rgb(99,99,99)'
+  },
+
 }
+
 
 export default about;
