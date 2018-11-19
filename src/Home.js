@@ -8,7 +8,7 @@ class Home extends Component {
       <div>
         <Image style={{padding: '20px', marginBottom:'50px'}} src="../images/logo.png" size="massive" centered/>
         <Image style={{height:'auto, width"100%', margin: '0'}} src="../images/home.jpg"/>
-        <section style={{
+        <Segment style={{
           margin:'0',
           padding:'70px',
           textAlign:'center',
@@ -21,7 +21,7 @@ class Home extends Component {
           <Button style={{backgroundColor:'rgb(252, 177, 193)'}} >
             <a  style={styles.button} href="mailto:lindsay.block05@gmail.com?Subject=Hello" target="_top">Email Me!</a>
           </Button>
-        </section>
+        </Segment>
       </div>
     )
   }
