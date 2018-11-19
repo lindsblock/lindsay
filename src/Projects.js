@@ -1,6 +1,5 @@
 import React from 'react';
 import { Header, Image, Icon, Button, Segment } from 'semantic-ui-react';
-import ScrollUpButton from "react-scroll-up-button"
 
 const projects = () => {
   return(
@@ -21,7 +20,7 @@ const projects = () => {
         <Button>
           <a style={styles.button} href="https://www.sassylashesthetics.com">
             <Icon name='desktop' />
-            www.sassylashesthetics.com
+            Visit Site
           </a>
         </Button>
       </Segment>

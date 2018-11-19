@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Menu, Segment, Header} from 'semantic-ui-react';
+import { Button, Menu, Header} from 'semantic-ui-react';
 
 const Footer = () => {
     return (

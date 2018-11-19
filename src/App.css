@@ -15,10 +15,24 @@
 
 .headers {
   font-family: 'Tangerine';
-  font-size: 10vw;
+  font-size: 20vw;
   /* margin-right: 20px; */
   /* padding-top: 10px; */
   padding:80px;
   text-align: center;
   color:rgb(99, 99, 99);
 }
+
+
+
+@media screen and (min-width: 600px) {
+  .headers {
+    font-size: 95px;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+  .headers {
+    font-size: 30px;
+  }
+} */

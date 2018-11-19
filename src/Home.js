@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Image, Segment, Divider, Button } from 'semantic-ui-react';
-import ScrollUpButton from "react-scroll-up-button"
+import { Image, Segment, Button } from 'semantic-ui-react';
 
 class Home extends Component {
   render(){
@@ -14,10 +13,10 @@ class Home extends Component {
           textAlign:'center',
           fontSize:'20px',
           fontFamily:'marcellus',
-          backgroundColor: 'rgb(246, 245, 245, .9)'
+          backgroundColor: 'rgb(246, 245, 245, .9)',
         }}>
-          <p style={{fontFamily:'Marcellus', fontSize:'20px', color:'rgb(99, 99, 99)'}}>Hey there! My name is Lindsay Block. I am a Full-Stack Web Developer located in SLC, Utah.</p>
-          <p style={{fontFamily:'Marcellus', fontSize:'40px', color:'rgb(99, 99, 99)'}}>Let's get in touch.</p>
+          <p style={{fontSize:'20px', color:'rgb(99,99,99)'}}>Hey there! My name is Lindsay Block. I am a Full-Stack Web Developer located in SLC, Utah.</p>
+          <p style={{fontSize:'40px', color:'rgb(99,99,99)'}}>Let's get in touch.</p>
           <Button style={{backgroundColor:'rgb(252, 177, 193)'}} >
             <a  style={styles.button} href="mailto:lindsay.block05@gmail.com?Subject=Hello" target="_top">Email Me!</a>
           </Button>
