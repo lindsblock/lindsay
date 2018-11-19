@@ -4,14 +4,14 @@ import { Button, Menu, Segment, Header} from 'semantic-ui-react';
 const Footer = () => {
     return (
       <div>
-        <Segment style={{
+        <section style={{
           backgroundColor:'rgb(246, 245, 245)',
           bottom: '0',
           left: '0',
           textAlign: 'center',
           width: '100%',
           /* position: absolute; */
-          padding: '10px',
+          padding: '20px 10px 10px 10px',
         }}>
              <a href="https://www.facebook.com/lindsay.wolthuis">
                <Button size="large" circular color='facebook' icon='facebook' />
@@ -36,7 +36,7 @@ const Footer = () => {
                 <Header style={styles.footerHeaders}>Contact</Header>
               </a>
             </Menu>
-          </Segment>
+          </section>
       </div>
     )
 }

@@ -8,7 +8,7 @@ class Home extends Component {
       <div>
         <Image style={{padding: '20px', marginBottom:'50px'}} src="../images/logo.png" size="massive" centered/>
         <Image style={{height:'auto, width"100%', margin: '0'}} src="../images/home.jpg"/>
-        <Segment style={{
+        <section style={{
           margin:'0',
           padding:'70px',
           textAlign:'center',
@@ -18,9 +18,10 @@ class Home extends Component {
         }}>
           <p style={{fontFamily:'Marcellus', fontSize:'20px', color:'rgb(99, 99, 99)'}}>Hey there! My name is Lindsay Block. I am a Full-Stack Web Developer located in SLC, Utah.</p>
           <p style={{fontFamily:'Marcellus', fontSize:'40px', color:'rgb(99, 99, 99)'}}>Let's get in touch.</p>
-          <Button style={styles.button}>EMAIL ME!</Button>
-        </Segment>
-        <Divider hidden />
+          <Button style={{backgroundColor:'rgb(252, 177, 193)'}} >
+            <a  style={styles.button} href="mailto:lindsay.block05@gmail.com?Subject=Hello" target="_top">Email Me!</a>
+          </Button>
+        </section>
       </div>
     )
   }
