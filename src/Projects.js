@@ -5,6 +5,14 @@ const projects = () => {
   return(
     <div>
       <h1 className="headers">What I'm Working On...</h1>
+      <h1
+        className="headers"
+        style={{
+          paddingTop:'0px',
+          fontSize:'25px',
+          fontFamily:'marcellus'
+        }}
+        >Some of my favorite projects so far</h1>
       <Segment style={{
         margin:'0',
         padding:'70px',
@@ -73,6 +81,12 @@ const projects = () => {
         color:'rgb(99,99,99)'
       }}>
         <p>Make sure to visit my Github to see more projects!</p>
+        <Button>
+          <a style={styles.button} href="https://github.com/lindsblock">
+          <Icon name='desktop' />
+          Github
+          </a>
+        </Button>
       </Segment>
     </div>
   )

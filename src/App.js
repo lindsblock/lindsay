@@ -74,7 +74,6 @@ class App extends Component {
           </Sidebar.Pusher>
         </Sidebar.Pushable>
         <Footer />
-
       </div>
     );
   }
@@ -85,6 +84,7 @@ const styles = {
     fontFamily: 'Marcellus',
     fontSize: '20px',
     backgroundColor: 'rgb(246, 245, 245)',
+    height:'100%'
   }
 }
 
