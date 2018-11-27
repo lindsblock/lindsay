@@ -1,23 +1,6 @@
-/* body, html {
-    height: 100%;
-    margin: 0;
-} */
-
-.background {
-  background-image: url(https://images.pexels.com/photos/414660/pexels-photo-414660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  height:125vh;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  /* position:relative; */
-  background-attachment: fixed;
-}
-
 .headers {
   font-family: 'Tangerine';
   font-size: 20vw;
-  /* margin-right: 20px; */
-  /* padding-top: 10px; */
   padding:80px 80px 0px;
   text-align: center;
   color:rgb(99, 99, 99);

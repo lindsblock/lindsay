@@ -5,14 +5,14 @@ class Home extends Component {
   render(){
     return(
       <div>
-        <Image style={{padding: '20px', marginBottom:'50px'}} src="../images/logo.png" size="massive" centered/>
+        <Image style={{padding: '20px', marginBottom:'50px', marginTop:'50px'}} src="../images/logo.png" size="massive" centered/>
         <Image style={{height:'auto, width"100%', margin: '0'}} src="../images/home.jpg"/>
         <Segment style={{
-          margin:'0',
-          padding:'70px',
-          textAlign:'center',
-          fontSize:'20px',
-          fontFamily:'marcellus',
+          margin: '0',
+          padding: '70px',
+          textAlign: 'center',
+          fontSize: '20px',
+          fontFamily: 'marcellus',
           background: 'rgb(246, 245, 245, .9)',
         }}>
           <p style={{fontSize:'20px', color:'rgb(99,99,99)'}}>Hey there! My name is Lindsay Block. I am a Full-Stack Web Developer based in SLC, Utah. </p>

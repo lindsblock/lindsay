@@ -19,7 +19,7 @@ const projects = () => {
         textAlign:'center',
         fontSize:'20px',
         fontFamily:'marcellus',
-        backgroundColor: 'rgb(246, 245, 245, .9)',
+        background: 'rgb(246, 245, 245, .9)',
         color: 'rgb(99,99,99)'
       }}>
         <Image rounded centered size="big" src='../images/sassylash.jpg' />
@@ -38,7 +38,7 @@ const projects = () => {
         textAlign:'center',
         fontSize:'20px',
         fontFamily:'marcellus',
-        backgroundColor:'rgb(252, 177, 193, .9)',
+        background:'rgb(252, 177, 193, .9)',
         color: 'rgb(99,99,99)'
       }}>
         <Image rounded centered size="big" src='../images/greg.jpg' />
@@ -58,7 +58,7 @@ const projects = () => {
         textAlign:'center',
         fontSize:'20px',
         fontFamily:'marcellus',
-        backgroundColor: 'rgb(168, 196, 157, .9)',
+        background: 'rgb(168, 196, 157, .9)',
         color: 'rgb(99,99,99)'
       }}>
         <Image rounded centered size="big" src='../images/canduu.jpg' />
@@ -77,7 +77,7 @@ const projects = () => {
         textAlign:'center',
         fontSize:'20px',
         fontFamily:'marcellus',
-        backgroundColor: 'rgb(246, 245, 245, .9)',
+        background: 'rgb(246, 245, 245, .9)',
         color:'rgb(99,99,99)'
       }}>
         <p>Make sure to visit my Github to see more projects!</p>
