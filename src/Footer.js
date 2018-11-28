@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Menu, Header} from 'semantic-ui-react';
+import { Button } from 'semantic-ui-react';
 import './Footer.css';
 
 

@@ -8,7 +8,6 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import Navbar from './Navbar'
-import { Sidebar, Menu, Button } from 'semantic-ui-react';
 
 
 class App extends Component {
@@ -30,13 +29,5 @@ class App extends Component {
   }
 }
 
-const styles = {
-  navHeaders: {
-    fontFamily: 'Marcellus',
-    fontSize: '20px',
-    backgroundColor: 'rgb(246, 245, 245)',
-    minHeight:'calc(900vh-80px)'
-  }
-}
 
 export default App;

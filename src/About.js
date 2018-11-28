@@ -9,8 +9,8 @@ const about = () => {
         backgroundColor: 'rgb(246, 245, 245, .9)',
         fontFamily:'marcellus',
         fontSize:'30px',
-        color:'rgb(99,99,99)'
-
+        color:'rgb(99,99,99)',
+        width: '80vw'
         }}>
         <Header textAlign="center" style={styles.segmentHeaders}>Skills</Header>
         <Grid
