@@ -4,7 +4,10 @@ import './Navbar.css';
 const navbar = () => (
   <header className='navbar'>
     <nav className='navbar_layout'>
-      <img style={{display:'flex', height:'40px', margin:'10px'}}  src="../images/damask.png"/>
+      <a href="/">
+        <img style={{display:'flex', height:'40px', margin:'10px'}}  src="../images/damask.png"/>
+      </a>
+
       <div className='spacer'/>
       <div className='navbar_links'>
         <ul>

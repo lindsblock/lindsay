@@ -24,7 +24,7 @@ const projects = () => {
       }}>
         <Image rounded centered size="big" src='../images/sassylash.jpg' />
         <Header style={styles.segmentHeaders}>Sassy Lash & Esthetics</Header>
-        <p>My very first official site that I completed for my best friend's eyelash extension business.</p>
+        <p>My very first official site that I completed for my friend's eyelash extension business.</p>
         <Button>
           <a style={styles.button} href="https://www.sassylashesthetics.com">
             <Icon name='desktop' />

@@ -1,16 +1,16 @@
 import React from 'react';
-import {Grid, Icon, Header, Container, Segment } from 'semantic-ui-react';
+import {Grid, Icon, Header, Container, Segment, Image } from 'semantic-ui-react';
 
 const about = () => {
   return(
     <div style={{textAlign:'center'}} >
       <h1 className="headers">Skills and Education</h1>
-      <Segment style={{
+      <section style={{
         backgroundColor: 'rgb(246, 245, 245, .9)',
         fontFamily:'marcellus',
         fontSize:'30px',
         color:'rgb(99,99,99)',
-        width: '80vw'
+        marginBottom:'0'
         }}>
         <Header textAlign="center" style={styles.segmentHeaders}>Skills</Header>
         <Grid
@@ -54,7 +54,7 @@ const about = () => {
            </Grid.Column>
            <Grid.Column>
              <Icon name='code' size='large' style={{color: 'rgb(114, 166, 96)'}}/>
-             <p>Semantic, Materialize, Bootatrap</p>
+             <p>Semantic/Bootatrap Frameworks</p>
            </Grid.Column>
            <Grid.Column>
              <Icon name='database' size='large' style={{color: 'rgb(114, 166, 96)'}}/>
@@ -62,8 +62,8 @@ const about = () => {
            </Grid.Column>
          </Grid.Row>
         </Grid>
-      </Segment>
-      <container style={{itemsAlign:'center'}}>
+      </section>
+      <section style={{itemsAlign:'center', backgroundColor:'rgb(252, 177, 193, .9)'}}>
         <Grid
           columns="equal"
           container
@@ -96,7 +96,7 @@ const about = () => {
             </Grid.Column>
           </Grid.Row>
         </Grid>
-      </container>
+      </section>
     </div>
   )
 }

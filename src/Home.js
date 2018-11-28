@@ -16,6 +16,7 @@ class Home extends Component {
         }}>
           <p style={{fontSize:'20px', color:'rgb(99,99,99)'}}>Looking for a Web Developer?</p>
           <p style={{fontSize:'20px', color:'rgb(99,99,99)'}}>Look no further! My name is Lindsay Block, and I am a Full-Stack Web Developer based in SLC, Utah. </p>
+          <p style={{fontSize:'20px', color:'rgb(99,99,99)'}}>I can build you a fully responsive, custom designed website specific to your needs.</p>
           <p style={{fontSize:'40px', color:'rgb(99,99,99)'}}>Let's get in touch.</p>
           <Button style={{backgroundColor:'rgb(252, 177, 193)'}} >
             <a  style={styles.button} href="mailto:lindsay.block05@gmail.com?Subject=Hello" target="_top">Email Me!</a>

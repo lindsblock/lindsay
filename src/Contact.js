@@ -4,7 +4,7 @@ import { Header, Segment, Button, Grid, Divider, Image } from 'semantic-ui-react
 const Contact =() => {
   return(
     <div>
-      <h1 className="headers">Contact</h1>
+      <h1 className="headers">Contact Me</h1>
       <Segment textAlign="center" style={styles.segment}>
         <Header as="h1" style={{fontFamily:'marcellus', color:'rgb(114, 166, 96)'}}>
           Let's Create Something!
@@ -21,7 +21,7 @@ const Contact =() => {
           </Grid.Column>
           <Grid.Column width={10} verticalAlign="middle">
             <p>
-              If you like my work and need a site or would like to collaborate on a project, find me on social media or message me below!
+              If you like my work and need a website or would like to collaborate on a project, find me on social media or message me below!
             </p>
             <p>
               Also, make sure you check out my Github for more of my work.
