@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Icon, Header, Container, Segment } from 'semantic-ui-react';
+import { Grid, Icon, Segment } from 'semantic-ui-react';
 
 const about = () => {
   return (
@@ -10,7 +10,7 @@ const about = () => {
         fontFamily:'marcellus',
         fontSize:'30px',
         color:'rgb(99,99,99)',
-        marginBottom:'0'
+        margin:'0'
         }}>
         <h1 style={{fontFamily:'marcellus'}} textAlign="center" >Skills</h1>
         <Grid columns={3} stackable celled='internally'>
@@ -69,7 +69,7 @@ const about = () => {
           <Grid.Row>
             <Grid.Column>
               <h1 style={{fontFamily:'marcellus', paddingTop:'40px'}}>Education</h1>
-              <Icon name="graduation" size="huge" style={{color:'rgb(99,99,99)'}}></Icon>
+              <Icon  name="graduation" size="huge" style={{color:'rgb(99,99,99)'}}></Icon>
             </Grid.Column>
             <Grid.Column style={{
               padding:'10px',

@@ -20,12 +20,15 @@ const Contact =() => {
             />
           </Grid.Column>
           <Grid.Column width={10} >
+          <Divider hidden />
             <p>
               If you like my work and need a website or would like to collaborate on a project, find me on social media or message me below!
             </p>
             <p>
               Also, make sure you check out my Github for more of my work.
             </p>
+            <Divider hidden />
+            <Divider hidden />
             <a href="https://www.facebook.com/lindsay.wolthuis">
               <Button size="huge" circular color='facebook' icon='facebook' />
             </a>

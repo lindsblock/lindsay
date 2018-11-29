@@ -7,7 +7,6 @@ const navbar = () => (
       <a href="/">
         <img alt="logo" style={{display:'flex', height:'40px', margin:'10px'}}  src="../images/damask.png"/>
       </a>
-
       <div className='spacer'/>
       <div className='navbar_links'>
         <ul>

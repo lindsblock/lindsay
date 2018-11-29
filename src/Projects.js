@@ -9,7 +9,7 @@ const projects = () => {
       <Segment style={{
         margin:'0',
         padding:'70px',
-        background:'rgb(246, 245, 245, .9)'
+        background:'rgb(246, 245, 245, .9)',
         }}
       >
       <div className="container">
