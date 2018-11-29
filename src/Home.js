@@ -14,7 +14,7 @@ class Home extends Component {
           fontFamily: 'marcellus',
           background: 'rgb(246, 245, 245, .9)',
         }}>
-          <p style={{fontSize:'20px', color:'rgb(99,99,99)'}}>Looking for a Web Developer?</p>
+          <p style={{fontSize:'30px', color:'rgb(99,99,99)'}}>Looking for a Web Developer?</p>
           <p style={{fontSize:'20px', color:'rgb(99,99,99)'}}>Look no further! My name is Lindsay Block, and I am a Full-Stack Web Developer based in SLC, Utah. </p>
           <p style={{fontSize:'20px', color:'rgb(99,99,99)'}}>I can build you a fully responsive, custom designed website specific to your needs.</p>
           <p style={{fontSize:'40px', color:'rgb(99,99,99)'}}>Let's get in touch.</p>

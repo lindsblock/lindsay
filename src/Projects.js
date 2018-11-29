@@ -1,75 +1,49 @@
 import React from 'react';
-import { Header, Image, Icon, Button, Segment } from 'semantic-ui-react';
+import {  Icon, Button, Segment } from 'semantic-ui-react';
+import './Projects.css';
 
 const projects = () => {
   return(
-    <div>
+    <div style={{textAlign:'center'}}>
       <h1 className="headers">What I'm Working On...</h1>
-      <h1
-        className="headers"
-        style={{
-          paddingTop:'0px',
-          fontSize:'25px',
-          fontFamily:'marcellus'
+      <Segment style={{
+        margin:'0',
+        padding:'70px',
+        background:'rgb(246, 245, 245, .9)'
         }}
-        >Some of my favorite projects so far</h1>
+      >
+      <div className="container">
+        <img alt="sassylash" style={{height:'auto', width: '100%'}} className="image" src='../images/sassylash.jpg' />
+        <div className="middle">
+          <Button style={styles.button}>Sassy Lash & Esthetics</Button>
+        </div>
+      </div>
+    </Segment>
       <Segment style={{
         margin:'0',
         padding:'70px',
-        textAlign:'center',
-        fontSize:'20px',
-        fontFamily:'marcellus',
-        background: 'rgb(246, 245, 245, .9)',
-        color: 'rgb(99,99,99)'
-      }}>
-        <Image rounded centered size="big" src='../images/sassylash.jpg' />
-        <Header style={styles.segmentHeaders}>Sassy Lash & Esthetics</Header>
-        <p>My very first official site that I completed for my friend's eyelash extension business.</p>
-        <Button>
-          <a style={styles.button} href="https://www.sassylashesthetics.com">
-            <Icon name='desktop' />
-            Visit Site
-          </a>
-        </Button>
-      </Segment>
-      <Segment style={{
-        margin:'0',
-        padding:'70px',
-        textAlign:'center',
-        fontSize:'20px',
-        fontFamily:'marcellus',
         background:'rgb(252, 177, 193, .9)',
-        color: 'rgb(99,99,99)'
-      }}>
-        <Image rounded centered size="big" src='../images/greg.jpg' />
-        <Header style={styles.segmentHeaders}>Greg's Car Tracker</Header>
-        <p>Project I started to make for my boyfriend so he can track modificaitons on his car.</p>
-          <p> I am wanting to make this into an app someday for car enthusiasts.</p>
-        <Button>
-          <a style={styles.button} href="https://github.com/lindsblock">
-          <Icon name='desktop' />
-          See it on my Github
-          </a>
-        </Button>
+        }}
+      >
+        <div className="container">
+          <img alt="greg" style={{height:'auto', width: '100%'}} className="image" src='../images/greg.jpg' />
+          <div className="middle">
+            <Button style={styles.button}>Greg's Car Tracker</Button>
+          </div>
+        </div>
       </Segment>
       <Segment style={{
         margin:'0',
         padding:'70px',
-        textAlign:'center',
-        fontSize:'20px',
-        fontFamily:'marcellus',
-        background: 'rgb(168, 196, 157, .9)',
-        color: 'rgb(99,99,99)'
-      }}>
-        <Image rounded centered size="big" src='../images/canduu.jpg' />
-        <Header style={styles.segmentHeaders}>Can Duu</Header>
-        <p>The portfolio project I collaborated on during school.</p>
-        <Button>
-          <a style={styles.button} href="/contact">
-            <Icon name='desktop' />
-            Ask me for details
-          </a>
-        </Button>
+        background:'rgb(168, 196, 157, .9)',
+        }}
+      >
+        <div className="container">
+          <img alt="canduu" style={{height:'auto', width: '100%'}} className="image" src='../images/canduu.jpg' />
+          <div className="middle">
+            <Button style={styles.button}>Can Duu</Button>
+          </div>
+        </div>
       </Segment>
       <Segment style={{
         margin:'0',
@@ -81,7 +55,7 @@ const projects = () => {
         color:'rgb(99,99,99)'
       }}>
         <p>Make sure to visit my Github to see more projects!</p>
-        <Button>
+        <Button style={styles.button}>
           <a style={styles.button} href="https://github.com/lindsblock">
           <Icon name='desktop' />
           Github
@@ -99,9 +73,9 @@ const styles = {
   },
 
   button: {
-    color:'rgb(114, 166, 96)',
-    fontSize:'20px',
     fontFamily:'marcellus',
+    backgroundColor:'rgb(168, 196, 157)',
+    color:'rgb(99,99,99)'
   }
 }
 

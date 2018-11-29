@@ -5,7 +5,7 @@ const navbar = () => (
   <header className='navbar'>
     <nav className='navbar_layout'>
       <a href="/">
-        <img style={{display:'flex', height:'40px', margin:'10px'}}  src="../images/damask.png"/>
+        <img alt="logo" style={{display:'flex', height:'40px', margin:'10px'}}  src="../images/damask.png"/>
       </a>
 
       <div className='spacer'/>

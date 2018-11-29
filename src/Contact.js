@@ -19,7 +19,7 @@ const Contact =() => {
               src='../images/lindsay.jpeg'
             />
           </Grid.Column>
-          <Grid.Column width={10} verticalAlign="middle">
+          <Grid.Column width={10} >
             <p>
               If you like my work and need a website or would like to collaborate on a project, find me on social media or message me below!
             </p>
