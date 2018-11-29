@@ -9,7 +9,7 @@
 
 }
 .navbar_layout {
-  display: flex;
+  display: flex!important;
   height: 100%;
   align-items: center;
   padding: 0 1rem;
@@ -38,4 +38,25 @@
 
 .navbar_links li {
   padding: 0 0.5rem;
+}
+
+.mobileLinks{
+  padding: 30px;
+  color: rgb(99,99,99);
+  font-family: 'marcellus';
+
+}
+
+.mobileSizeDiv{
+ display: none !important;
+}
+
+@media (max-width: 768px){
+  .mobileSizeDiv {
+    display: flex !important;
+    justify-content: center;
+  }
+  .navbar_layout {
+    display: none !important;
+  }
 }
