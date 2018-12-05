@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
 import './index.css';
-import Footer from './Footer';
-import Home from './Home';
-import About from './About';
-import Projects from './Projects';
-import Contact from './Contact';
-import Navbar from './Navbar'
+import Footer from './components/Footer/Footer';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+import Navbar from './components/Navbar/Navbar'
 
 
 class App extends Component {
