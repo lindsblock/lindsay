@@ -13,7 +13,9 @@ const canDuuModal = ({ handleClose, showing }) => {
       <p>React</p>
       <p>Javascript/ES6</p>
       <p>Rails Backend</p>
-      <Button style={styles.button}>Visit Site</Button>
+      <Button style={styles.button} >
+        <a  style={styles.button} href="mailto:lindsay.block05@gmail.com?Subject=Hello" target="_top">Ask Me For Details</a>
+      </Button>
       <Button style={styles.button} onClick={handleClose} >Close</Button>
     </section>
     </div>

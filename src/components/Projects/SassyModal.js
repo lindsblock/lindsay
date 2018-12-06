@@ -13,7 +13,11 @@ const sassyModal = ({ handleClose, showing }) => {
       <p>React</p>
       <p>Javascript/ES6</p>
       <p>Ruby On Rails Backend</p>
-      <Button style={styles.button}>Visit Site</Button>
+      <Button style={styles.button}>
+      <a style={styles.button} href="https://www.sassylashesthetics.com/">
+      Visit Site
+      </a>
+    </Button>
       <Button style={styles.button} onClick={handleClose} >Close</Button>
     </section>
     </div>
