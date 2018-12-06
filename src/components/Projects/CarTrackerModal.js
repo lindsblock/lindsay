@@ -7,6 +7,7 @@ const carTrackerModal = ({ handleClose, showing }) => {
   return(
     <div className={showOrHide}>
       <section className="modal-main">
+        <Button size="mini" icon="x" circular style={{position:'absolute', top:'0', right:'0', margin:'10px'}} onClick={handleClose} />
       <h1 style={{fontFamily:'marcellus'}}>Greg's Car Tracker</h1>
       <p>A project I am working on for my boyfriend to keep track of modifications to his car like tire rotations and oil changes. One day I would like to turn it into an app for car enthusiasts. </p>
       <p>This app was written in...</p>
@@ -18,7 +19,6 @@ const carTrackerModal = ({ handleClose, showing }) => {
         See It On Github
         </a>
       </Button>
-      <Button style={styles.button} onClick={handleClose} >Close</Button>
     </section>
     </div>
   )

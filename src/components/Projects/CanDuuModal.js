@@ -7,6 +7,7 @@ const canDuuModal = ({ handleClose, showing }) => {
   return(
     <div className={showOrHide}>
       <section className="modal-main">
+      <Button size="mini" icon="x" circular style={{position:'absolute', top:'0', right:'0', margin:'10px'}} onClick={handleClose} />
       <h1 style={{fontFamily:'marcellus'}}>Can Duu</h1>
       <p>This was my portfolio project I collaborated on for school. See it on my Github!</p>
       <p>This app was written in...</p>
@@ -16,7 +17,6 @@ const canDuuModal = ({ handleClose, showing }) => {
       <Button style={styles.button} >
         <a  style={styles.button} href="mailto:lindsay.block05@gmail.com?Subject=Hello" target="_top">Ask Me For Details</a>
       </Button>
-      <Button style={styles.button} onClick={handleClose} >Close</Button>
     </section>
     </div>
   )
@@ -27,7 +27,8 @@ const styles = {
     color: 'white',
     fontSize:'15px',
     fontFamily:'marcellus',
-    backgroundColor:'rgb(252, 177, 193)'
+    backgroundColor:'rgb(252, 177, 193)',
+    margin: '10px'
   }
 }
 
