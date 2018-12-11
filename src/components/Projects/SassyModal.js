@@ -1,6 +1,6 @@
 import React from 'react';
 import './Modal.css';
-import { Button, Grid } from 'semantic-ui-react';
+import { Button } from 'semantic-ui-react';
 
 const sassyModal = ({ handleClose, showing }) => {
   const showOrHide = showing ? "modal display-block" : "modal display-none";

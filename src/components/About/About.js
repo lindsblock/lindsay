@@ -84,7 +84,7 @@ const about = () => {
               <strong>SLCC</strong>
               <p>2015 - Associate's Degree in General Education </p>
               <strong>SLCC</strong>
-              <p>2015 - Associate's Degree in Applied Science - Physical Therapist Assisting </p>
+              <p>2015 - Associate's Degree of Applied Science in Physical Therapist Assisting </p>
             </Grid.Column>
           </Grid.Row>
         </Grid>

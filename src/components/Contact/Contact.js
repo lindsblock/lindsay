@@ -5,8 +5,8 @@ const Contact =() => {
   return(
     <div>
       <h1 className="headers">Contact Me</h1>
-      <Segment textAlign="center" style={styles.segment}>
-        <Header as="h1" style={{fontFamily:'marcellus', color:'rgb(114, 166, 96)'}}>
+      <Segment  style={styles.segment}>
+        <Header as="h1" style={{fontFamily:'marcellus', color:'rgb(114, 166, 96)', textAlign:'center'}}>
           Let's Create Something!
         </Header>
         <Divider />
@@ -29,20 +29,24 @@ const Contact =() => {
             </p>
             <Divider hidden />
             <Divider hidden />
-            <a href="https://www.facebook.com/lindsay.wolthuis">
-              <Button size="huge" circular color='facebook' icon='facebook' />
-            </a>
-            <a href="https://www.linkedin.com/in/lindsay-block0805">
-              <Button size="huge" circular color='linkedin' icon='linkedin' />
-            </a>
-            <a href="https://github.com/lindsblock">
-              <Button size="huge" circular color="black" icon='github' />
-            </a>
+            <div style={{display:'flex',justifyContent:'center'}}>
+              <a href="https://www.facebook.com/lindsay.wolthuis">
+                <Button size="huge" circular color='facebook' icon='facebook' />
+              </a>
+              <a href="https://www.linkedin.com/in/lindsay-block0805">
+                <Button size="huge" circular color='linkedin' icon='linkedin' />
+              </a>
+              <a href="https://github.com/lindsblock">
+                <Button size="huge" circular color="black" icon='github' />
+              </a>
+            </div>
             <br />
-            <br />
-            <Button style={{backgroundColor:'rgb(252, 177, 193)'}} >
-              <a  style={styles.button} href="mailto:lindsay.block05@gmail.com?Subject=Hello" target="_top">Say Hi!</a>
-            </Button>
+            <div style={{display:'flex', justifyContent: 'center'}}>
+              <Button style={{backgroundColor:'rgb(252, 177, 193)'}} >
+                <a  style={styles.button} href="mailto:lindsay.block05@gmail.com?Subject=Hello" target="_top">Say Hi!</a>
+              </Button>
+
+            </div>
           </Grid.Column>
         </Grid>
       </Segment>
@@ -54,7 +58,9 @@ const styles = {
     color: 'white',
     fontSize:'20px',
     fontFamily:'marcellus',
-    backgroundColor:'rgb(252, 177, 193)'
+    backgroundColor:'rgb(252, 177, 193)',
+
+
   },
   segment: {
     padding:'50px',
