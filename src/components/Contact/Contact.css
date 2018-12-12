@@ -1,0 +1,19 @@
+.contact_grid {
+  text-align: center;
+}
+
+.contact_segment {
+  padding: 80px;
+  background-color: rgba(246, 245, 245, .9);
+  color: rgb(99,99,99);
+  font-family:'marcellus';
+  font-size: 20px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .contact_segment {
+    width: 100%;
+  }
+}

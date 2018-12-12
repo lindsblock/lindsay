@@ -1,23 +1,23 @@
 import React from 'react';
 import { Header, Segment, Button, Grid, Divider, Image } from 'semantic-ui-react';
+import './Contact.css';
 
 const Contact =() => {
   return(
     <div>
       <h1 className="headers">Contact Me</h1>
-      <Segment  style={styles.segment}>
+      <div className="contact_segment">
         <Header as="h1" style={{fontFamily:'marcellus', color:'rgb(114, 166, 96)', textAlign:'center'}}>
           Let's Create Something!
         </Header>
         <Divider />
-        <Grid   stackable>
+        <Grid  className="contact_grid" stackable>
           <Grid.Column width={6}>
             <Image
               bordered
               circular
               size='medium'
               src='../images/lindsay.jpeg'
-
             />
           </Grid.Column>
           <Grid.Column width={10} >
@@ -46,11 +46,10 @@ const Contact =() => {
               <Button style={{backgroundColor:'rgb(252, 177, 193)'}} >
                 <a  style={styles.button} href="mailto:lindsay.block05@gmail.com?Subject=Hello" target="_top">Say Hi!</a>
               </Button>
-
             </div>
           </Grid.Column>
         </Grid>
-      </Segment>
+      </div>
     </div>
   )
 }
@@ -60,16 +59,6 @@ const styles = {
     fontSize:'20px',
     fontFamily:'marcellus',
     backgroundColor:'rgb(252, 177, 193)',
-
-
-  },
-  segment: {
-    padding:'50px',
-    backgroundColor: 'rgb(246, 245, 245, .9)',
-    color:'rgb(99,99,99)',
-    fontFamily:'marcellus',
-    fontSize:'20px',
-    margin:'0 80px 100px'
   }
 }
 export default Contact;
