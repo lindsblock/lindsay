@@ -4,6 +4,11 @@
     display: inline-block;
     background: rgb(246, 245, 245)
 }
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
 
 .image {
   opacity: 1;

@@ -13,7 +13,7 @@ const carTrackerModal = ({ handleClose, showing }) => {
       <p>This app was written in...</p>
       <p>React</p>
       <p>Javascript/ES6</p>
-      <p>Rails Backend</p>
+      <p>Ruby on Rails Backend</p>
       <Button style={styles.button}>
         <a style={styles.button} href="https://github.com/lindsblock">
         See It On Github

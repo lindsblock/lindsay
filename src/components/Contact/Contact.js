@@ -10,13 +10,14 @@ const Contact =() => {
           Let's Create Something!
         </Header>
         <Divider />
-        <Grid stackable>
+        <Grid   stackable>
           <Grid.Column width={6}>
             <Image
               bordered
               circular
               size='medium'
               src='../images/lindsay.jpeg'
+
             />
           </Grid.Column>
           <Grid.Column width={10} >
