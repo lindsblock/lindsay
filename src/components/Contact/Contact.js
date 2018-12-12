@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Segment, Button, Grid, Divider, Image } from 'semantic-ui-react';
+import { Header, Button, Grid, Divider, Image } from 'semantic-ui-react';
 import './Contact.css';
 
 const Contact =() => {

@@ -39,7 +39,7 @@ class Projects extends Component {
         <Segment style={{
           margin:'0',
           padding:'70px',
-          background:'rgb(246, 245, 245, .9)',
+          background:'rgba(246, 245, 245, .9)',
           }}
         >
         <div className="container">
@@ -52,7 +52,7 @@ class Projects extends Component {
         <Segment style={{
           margin:'0',
           padding:'70px',
-          background:'rgb(252, 177, 193, .9)',
+          background:'rgba(252, 177, 193, .9)',
           }}
         >
           <div className="container">
@@ -65,7 +65,7 @@ class Projects extends Component {
         <Segment style={{
           margin:'0',
           padding:'70px',
-          background:'rgb(168, 196, 157, .9)',
+          background:'rgba(168, 196, 157, .9)',
           }}
         >
           <div className="container">
@@ -81,7 +81,7 @@ class Projects extends Component {
           textAlign:'center',
           fontSize:'20px',
           fontFamily:'marcellus',
-          background: 'rgb(246, 245, 245, .9)',
+          background: 'rgba(246, 245, 245, .9)',
           color:'rgb(99,99,99)'
         }}>
           <p>Make sure to visit my Github to see more projects!</p>

@@ -6,7 +6,7 @@ const about = () => {
     <div style={{textAlign:'center'}} >
       <h1 className="headers">Skills and Education</h1>
       <div style={{
-        backgroundColor: 'rgb(246, 245, 245, .9)',
+        backgroundColor: 'rgba(246, 245, 245, .9)',
         fontFamily:'marcellus',
         fontSize:'30px',
         color:'rgb(99,99,99)',
@@ -61,7 +61,7 @@ const about = () => {
       <Segment style={{
         margin:'0',
         itemsAlign:'center',
-        backgroundColor:'rgb(252, 177, 193, .9)',
+        backgroundColor:'rgba(252, 177, 193, .9)',
         color:'rgb(99,99,99)',
         }}
       >
