@@ -16,7 +16,7 @@ class Home extends Component {
             <a  style={styles.button} href="mailto:lindsay.block05@gmail.com?Subject=Hello" target="_top">Email Me!</a>
           </Button>
         </div>
-        <Image style={{height:'auto, width"100%', margin: '0'}} src="../images/home.jpg"/>
+        <Image style={{ margin: '0'}} src="../images/home.jpg"/>
       </div>
     )
   }
