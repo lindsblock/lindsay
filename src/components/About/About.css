@@ -1,0 +1,15 @@
+.about {
+  background: rgba(234, 229, 245, 0.85);
+  font-family:'marcellus';
+  font-size:23px;
+  color:rgb(99,99,99);
+  padding:'80px';
+}
+
+.skills {
+  background: rgba(234, 229, 245, 0.85);
+  font-family:'marcellus';
+  font-size: 30px;
+  color: rgb(99,99,99);
+  margin:0;
+}

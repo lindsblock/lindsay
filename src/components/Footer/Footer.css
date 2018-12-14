@@ -1,5 +1,5 @@
 .footer {
-  background-color: rgb(246, 245, 245);
+  background-color: rgb(96, 106, 143);
   bottom: 0;
   left: 0;
   text-align: center;
@@ -22,15 +22,15 @@
 }
 
 .footer_links a {
-  color: rgb(99,99,99);
+  color: white;
   font-family: 'marcellus';
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   text-decoration: none;
 }
 
 .footer_links a:hover,
 .footer_links a:active {
-  color: rgb(114, 166, 96);
+  color:rgb(242, 178, 137);
 }
 
 .footer_links ul {

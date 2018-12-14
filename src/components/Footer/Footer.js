@@ -8,7 +8,7 @@ const Footer = () => (
     <nav className="footer_layout">
       <div className="footer_icons">
         <a href="https://www.facebook.com/lindsay.wolthuis">
-          <Button size="large" circular color='facebook' icon='facebook' />
+          <Button size="large" circular color='facebook' icon='facebook' style={{border:'white'}} />
         </a>
         <a href="https://www.linkedin.com/in/lindsay-block0805">
           <Button size="large" circular color='linkedin' icon='linkedin' />

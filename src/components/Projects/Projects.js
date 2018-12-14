@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {  Icon, Button, Segment } from 'semantic-ui-react';
+import {  Icon } from 'semantic-ui-react';
 import './Projects.css';
 import SassyModal from './SassyModal';
 import CarTrackerModal from './CarTrackerModal';
@@ -36,62 +36,56 @@ class Projects extends Component {
     return(
       <div style={{textAlign:'center'}}>
         <h1 className="headers">What I'm Working On...</h1>
-        <Segment style={{
+        <div style={{
           margin:'0',
           padding:'70px',
-          background:'rgba(246, 245, 245, .9)',
+          background:'rgba(234, 229, 245, 0.85)',
           }}
         >
         <div className="container">
           <img alt="sassylash" style={{height:'auto', width: '100%'}} className="image" src='../images/sassylash.jpg' />
           <div className="middle">
-            <Button onClick={this.showSassyModal} style={styles.button}>Sassy Lash & Esthetics</Button>
+            <button onClick={this.showSassyModal} className="button">Sassy Lash & Esthetics</button>
           </div>
         </div>
-      </Segment>
-        <Segment style={{
+      </div>
+      <div className="bottom_divs"></div>
+        <div style={{
           margin:'0',
           padding:'70px',
-          background:'rgba(252, 177, 193, .9)',
+          background:'rgba(234, 229, 245, 0.85)',
           }}
         >
           <div className="container">
             <img alt="greg" style={{height:'auto', width: '100%'}} className="image" src='../images/greg.jpg' />
             <div className="middle">
-              <Button onClick={this.showCarModal} style={styles.button}>Greg's Car Tracker</Button>
+              <button onClick={this.showCarModal} className="button">Greg's Car Tracker</button>
             </div>
           </div>
-        </Segment>
-        <Segment style={{
+        </div>
+        <div className="bottom_divs"></div>
+        <div style={{
           margin:'0',
           padding:'70px',
-          background:'rgba(168, 196, 157, .9)',
+          background:'rgba(234, 229, 245, 0.85)',
           }}
         >
           <div className="container">
             <img alt="canduu" style={{height:'auto', width: '100%'}} className="image" src='../images/canduu.jpg' />
             <div className="middle">
-              <Button onClick={this.showCanModal} style={styles.button}>Can Duu</Button>
+              <button onClick={this.showCanModal} className="button">Can Duu</button>
             </div>
           </div>
-        </Segment>
-        <Segment style={{
-          margin:'0',
-          padding:'70px',
-          textAlign:'center',
-          fontSize:'20px',
-          fontFamily:'marcellus',
-          background: 'rgba(246, 245, 245, .9)',
-          color:'rgb(99,99,99)'
-        }}>
+        </div>
+        <div className="bottom_divs">
           <p>Make sure to visit my Github to see more projects!</p>
-          <Button style={styles.button}>
-            <a style={styles.button} href="https://github.com/lindsblock">
+          <button className="button">
+            <a href="https://github.com/lindsblock">
             <Icon name='desktop' />
             Github
             </a>
-          </Button>
-        </Segment>
+          </button>
+        </div>
         <SassyModal showing={this.state.showingOne} handleClose={this.closeSassyModal}/>
         <CarTrackerModal showing={this.state.showingTwo} handleClose={this.closeCarModal}/>
         <CanDuuModal showing={this.state.showingThree} handleClose={this.closeCanModal}/>
@@ -99,18 +93,6 @@ class Projects extends Component {
     )
   }
 }
-const styles = {
-  segmentHeaders: {
-    fontFamily:'marcellus',
-    fontSize:'30px',
-    color:'rgb(99,99,99)'
-  },
 
-  button: {
-    fontFamily:'marcellus',
-    backgroundColor:'rgb(168, 196, 157)',
-    color:'rgb(99,99,99)'
-  }
-}
 
 export default Projects;

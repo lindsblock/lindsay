@@ -1,5 +1,5 @@
 .navbar {
-  background: rgb(246, 245, 245);
+  background: rgb(160, 168, 200, .7);
   position: fixed;
   width: 100%;
   height: 56px;
@@ -19,14 +19,14 @@
 }
 
 .navbar_links a {
-  color: rgb(99,99,99);
+  color: white;
   font-family: 'marcellus';
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   text-decoration: none;
 }
 .navbar_links a:hover,
 .navbar_links a:active{
-  color: rgb(114, 166, 96);
+  color: rgb(242, 178, 137);
 }
 
 .navbar_links ul {

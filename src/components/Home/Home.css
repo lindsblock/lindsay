@@ -2,7 +2,8 @@
   margin: 0;
   padding: 70px;
   text-align: center;
-  font-size: 20px;
+  font-size: 23px;
   font-family: "marcellus";
-  background: rgba(246, 245, 245, .9)
+  background: rgba(234, 229, 245, 0.85);
+  color: rgb(99,99,99)
 }

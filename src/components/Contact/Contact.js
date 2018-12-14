@@ -7,7 +7,7 @@ const Contact =() => {
     <div>
       <h1 className="headers">Contact Me</h1>
       <div className="contact_segment">
-        <Header as="h1" style={{fontFamily:'marcellus', color:'rgb(114, 166, 96)', textAlign:'center'}}>
+        <Header as="h1" style={{fontFamily:'marcellus', color:'rgb(99,99,99)', textAlign:'center'}}>
           Let's Create Something!
         </Header>
         <Divider />
@@ -43,22 +43,18 @@ const Contact =() => {
             </div>
             <br />
             <div style={{display:'flex', justifyContent: 'center'}}>
-              <Button style={{backgroundColor:'rgb(252, 177, 193)'}} >
-                <a  style={styles.button} href="mailto:lindsay.block05@gmail.com?Subject=Hello" target="_top">Say Hi!</a>
-              </Button>
+              <button className="button" >
+                <a  href="mailto:lindsay.block05@gmail.com?Subject=Hello" target="_top">Say Hi!</a>
+              </button>
             </div>
           </Grid.Column>
         </Grid>
       </div>
+      <div style={{height:'30vh'}}>
+      </div>
+
     </div>
   )
 }
-const styles = {
-  button: {
-    color: 'white',
-    fontSize:'20px',
-    fontFamily:'marcellus',
-    backgroundColor:'rgb(252, 177, 193)',
-  }
-}
+
 export default Contact;
