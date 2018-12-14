@@ -8,8 +8,6 @@
   text-shadow: 2px 2px 8px #a7a7a7
 }
 
-
-
 @media screen and (max-width: 600px) {
   .headers {
     font-size: 50px;
@@ -51,6 +49,13 @@
   background-size: cover;
   background-attachment: fixed;
 }
+
+@media screen and (max-width: 600px) {
+  .background {
+    background-image: url(/images/mobileBackground.jpg)
+  }
+}
+
 .bottom_divs {
     margin: 0;
     padding: 70px;
