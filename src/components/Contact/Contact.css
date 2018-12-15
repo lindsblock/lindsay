@@ -2,12 +2,12 @@
   text-align: center;
 }
 
-.contact_segment {
+.contact_div {
   padding: 80px;
   background-color: rgba(234, 229, 245, 0.85);
   color: rgb(99,99,99);
   font-family:'marcellus';
-  font-size: 20px;
+  font-size: 23px;
 }
 
 

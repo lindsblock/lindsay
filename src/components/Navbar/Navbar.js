@@ -27,8 +27,11 @@ const navbar = () => (
       </div>
     </nav>
     <div className="mobileSizeDiv">
-      <Dropdown floating text='Menu' style={{color: 'rgb(99,99,99)', fontFamily:'marcellus',fontSize: '24px', margin: '20px'}}>
-        <Dropdown.Menu style={{background:'rgba(245, 229, 241)'}}>
+      <Dropdown
+        floating
+        text='Menu'
+        style={{color: 'rgb(99,99,99)', fontFamily:'marcellus',fontSize: '24px', margin: '20px'}}>
+        <Dropdown.Menu style={{background:'rgb(213, 217, 233)'}}>
           <Dropdown.Item style={{color:'rgb(99,99,99)'}} as="a" href="/" text='Home' />
           <Dropdown.Item style={{color:'rgb(99,99,99)'}} as="a" href="/about" text='About' />
           <Dropdown.Item style={{color:'rgb(99,99,99)'}} as="a" href="projects" text='Projects'  />

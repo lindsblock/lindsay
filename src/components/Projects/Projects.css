@@ -10,6 +10,12 @@
   }
 }
 
+.project_div {
+  margin:0;
+  padding:70px;
+  background:rgba(234, 229, 245, 0.85);
+}
+
 .image {
   opacity: 1;
   display: block;

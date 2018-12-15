@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Icon, Image, Divider} from 'semantic-ui-react';
+import { Grid, Icon, Divider} from 'semantic-ui-react';
 import './About.css';
 
 
@@ -8,31 +8,37 @@ const about = () => {
     <div style={{textAlign:'center'}} >
       <h1 className="headers">About Me</h1>
       <div className="about">
-        <h1 style={{fontFamily:'marcellus', paddingTop:'40px', fontSize:'50px'}} textalign="center" >What I Do</h1>
+        <h1 style={{fontFamily:'marcellus', paddingTop:'40px', fontSize:'40px'}} textalign="center" >What I Do</h1>
         <Divider />
         <Grid  style={{padding:'100px' }} stackable>
           <Grid.Row>
-            <Grid.Column width={6}>
-              <Image
-                bordered
+            <Grid.Column  style={{display:'flex', justifyContent:'center', alignItems:'center'}} width={6}>
+              <img
+                alt="Me"
                 circular
-                size='medium'
                 src='../images/lindsay.jpeg'
+                style={{borderRadius:'50%'}}
               />
             </Grid.Column>
-            <Grid.Column width={10}>
-              <p>My name is Lindsay and I am a full-stack Web Developer located in Salt Lake City, Utah.
-              I design and develop responsive, custom websites specific to your wants and needs. My specialty is working with React JS
-              applications. </p>
-              <p>I am a little bit of a perfectionist and I have an eye for detail. </p>
+            <Grid.Column style={{display:'flex', justifyContent:'center', alignItems:'center', flexDirection:'column'}} width={10}>
+              <p>
+                My name is Lindsay and I am a Full-stack Web Developer located in Salt Lake City, Utah.
+                I develop responsive, custom websites specifically designed just for you.
+                While I had a well rounded experience learning to code,
+                my specialty is working on the front-end with React JS applications.
+              </p>
+              <p>
+                I am a little bit of a perfectionist and I have an eye for detail. If there is something you want
+                but I don't know how to do it, I am not afraid to give it a try and learn new things. I am always striving
+                to improve my knowledge and skills as a web developer.
+              </p>
             </Grid.Column>
           </Grid.Row>
         </Grid>
       </div>
-      <div style={{height:'30vh'}}>
-      </div>
+      <div className="bottom_divs"></div>
       <div className="skills">
-        <h1 style={{fontFamily:'marcellus', paddingTop:'40px'}} textalign="center" >Skills</h1>
+        <h1 style={{fontFamily:'marcellus', paddingTop:'40px', fontSize:'40px'}} textalign="center" >What I Know</h1>
         <Divider />
         <Grid columns={3} stackable celled='internally'>
           <Grid.Row>
@@ -79,15 +85,19 @@ const about = () => {
         </Grid.Row>
         </Grid>
       </div>
-      <div style={{height:'30vh'}}>
-      </div>
+      <div className="bottom_divs"></div>
       <div className="skills">
-        <h1 style={{fontFamily:'marcellus', paddingTop:'40px'}}>Education</h1>
+        <h1 style={{fontFamily:'marcellus', paddingTop:'40px', fontSize:'40px'}}>Education</h1>
         <Divider />
         <Grid columns={2} stackable celled='internally' >
           <Grid.Row>
-            <Grid.Column>
-              <Icon  name="graduation" size="huge" style={{color:'rgb(230, 179, 147)', marginTop:'20px'}}></Icon>
+            <Grid.Column style={{display:'flex', justifyContent:'center'}}>
+              <img
+                alt="badge"
+                size='medium'
+                src='../images/badge.png'
+              />
+              {/* <Icon  name="graduation" size="huge" style={{color:'rgb(230, 179, 147)', marginTop:'20px'}}></Icon> */}
             </Grid.Column>
             <Grid.Column style={{
               padding:'10px',
@@ -106,6 +116,12 @@ const about = () => {
             </Grid.Column>
           </Grid.Row>
         </Grid>
+      </div>
+      <div className="bottom_divs"></div>
+      <div className="about">
+        <h1 style={{fontFamily:'marcellus', paddingTop:'40px', fontSize:'40px'}} textalign="center" >The Process</h1>
+        <p>The p</p>
+
       </div>
 
       <div className="bottom_divs">

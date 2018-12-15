@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {  Icon } from 'semantic-ui-react';
+import {  Icon} from 'semantic-ui-react';
 import './Projects.css';
 import SassyModal from './SassyModal';
 import CarTrackerModal from './CarTrackerModal';
@@ -36,26 +36,16 @@ class Projects extends Component {
     return(
       <div style={{textAlign:'center'}}>
         <h1 className="headers">What I'm Working On...</h1>
-        <div style={{
-          margin:'0',
-          padding:'70px',
-          background:'rgba(234, 229, 245, 0.85)',
-          }}
-        >
-        <div className="container">
-          <img alt="sassylash" style={{height:'auto', width: '100%'}} className="image" src='../images/sassylash.jpg' />
-          <div className="middle">
-            <button onClick={this.showSassyModal} className="button">Sassy Lash & Esthetics</button>
+        <div className="project_div">
+          <div className="container">
+            <img alt="sassylash" style={{height:'auto', width: '100%'}} className="image" src='../images/sassylash.jpg' />
+            <div className="middle">
+              <button onClick={this.showSassyModal} className="button">Sassy Lash & Esthetics</button>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="bottom_divs"></div>
-        <div style={{
-          margin:'0',
-          padding:'70px',
-          background:'rgba(234, 229, 245, 0.85)',
-          }}
-        >
+        <div className="bottom_divs"></div>
+        <div className="project_div">
           <div className="container">
             <img alt="greg" style={{height:'auto', width: '100%'}} className="image" src='../images/greg.jpg' />
             <div className="middle">
@@ -64,12 +54,7 @@ class Projects extends Component {
           </div>
         </div>
         <div className="bottom_divs"></div>
-        <div style={{
-          margin:'0',
-          padding:'70px',
-          background:'rgba(234, 229, 245, 0.85)',
-          }}
-        >
+        <div className="project_div">
           <div className="container">
             <img alt="canduu" style={{height:'auto', width: '100%'}} className="image" src='../images/canduu.jpg' />
             <div className="middle">
@@ -81,9 +66,7 @@ class Projects extends Component {
           <p>Make sure to visit my Github to see more projects!</p>
           <button className="button">
             <a href="https://github.com/lindsblock">
-            <Icon name='desktop' />
-            Github
-            </a>
+            <Icon name='desktop' />Github</a>
           </button>
         </div>
         <SassyModal showing={this.state.showingOne} handleClose={this.closeSassyModal}/>
