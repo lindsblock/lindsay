@@ -1,6 +1,6 @@
 import React from 'react';
 import './Modal.css';
-import { Button } from 'semantic-ui-react';
+import { Button, Divider } from 'semantic-ui-react';
 
 const carTrackerModal = ({ handleClose, showing }) => {
   const showOrHide = showing ? "modal display-block" : "modal display-none";
@@ -19,6 +19,7 @@ const carTrackerModal = ({ handleClose, showing }) => {
           one day I would like to turn it into an app for car enthusiasts.
         </p>
         <strong>This app was written in...</strong>
+        <Divider hidden />
         <p>React</p>
         <p>Javascript/ES6</p>
         <p>Ruby on Rails Backend</p>

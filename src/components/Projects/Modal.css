@@ -21,6 +21,14 @@
   color: rgb(99,99,99)
 }
 
+@media screen and (max-width: 600px) {
+  .modal-main {
+    height:80%;
+    width:80%;
+    overflow-y: auto;
+  }
+}
+
 .display-block {
   display: block;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Modal.css';
-import { Button } from 'semantic-ui-react';
+import { Button, Divider } from 'semantic-ui-react';
 
 const canDuuModal = ({ handleClose, showing }) => {
   const showOrHide = showing ? "modal display-block" : "modal display-none";
@@ -19,6 +19,7 @@ const canDuuModal = ({ handleClose, showing }) => {
           I just wish we could have been able to finish it to see the final product!
         </p>
         <strong>This app was written in...</strong>
+        <Divider hidden />
         <p>React with Redux</p>
         <p>Javascript/ES6</p>
         <p>Ruby on Rails Backend</p>
