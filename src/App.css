@@ -51,9 +51,6 @@
 @media screen and (max-width: 600px) {
   .background {
     background-image: url(/images/mobileBackground.jpg);
-    background-repeat: repeat;
-
-
   }
 }
 

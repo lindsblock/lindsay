@@ -10,12 +10,11 @@ const about = () => {
       <div className="about">
         <h1 style={{fontFamily:'marcellus', paddingTop:'40px', fontSize:'40px'}} textalign="center" >What I Do</h1>
         <Divider />
-        <Grid  style={{padding:'100px' }} stackable>
+        <Grid  style={{padding:'50px' }} stackable>
           <Grid.Row>
             <Grid.Column  style={{display:'flex', justifyContent:'center', alignItems:'center'}} width={6}>
               <img
                 alt="Me"
-                circular
                 src='../images/lindsay.jpeg'
                 style={{borderRadius:'50%'}}
               />
@@ -41,8 +40,8 @@ const about = () => {
         <h1 style={{fontFamily:'marcellus', paddingTop:'40px', fontSize:'40px'}} textalign="center" >What I Know</h1>
         <Divider />
         <Grid columns={3} stackable celled='internally'>
-          <Grid.Row>
-            <Grid.Column>
+          <Grid.Row >
+            <Grid.Column >
               <Icon name='js' size='large' style={{color: 'rgb(230, 179, 147)'}}/>
               <p>JavaScript/ES6</p>
             </Grid.Column>
@@ -117,13 +116,6 @@ const about = () => {
           </Grid.Row>
         </Grid>
       </div>
-      <div className="bottom_divs"></div>
-      <div className="about">
-        <h1 style={{fontFamily:'marcellus', paddingTop:'40px', fontSize:'40px'}} textalign="center" >The Process</h1>
-        <p>The p</p>
-
-      </div>
-
       <div className="bottom_divs">
         <p>Check out my LinkedIn for my work experience!</p>
         <button className="button">
